@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a12201027.bethereforme">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Home" />
+        <activity android:name=".Sight" />
+        <activity android:name=".Voice" />
+        <activity android:name=".Read" />
+        <activity android:name=".SolveProblems" />
+        <activity android:name=".GIveIdeas" />
+        <activity
+            android:name=".Counselling"
+            android:label="@string/title_activity_counselling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AskHelp"
+            android:label="@string/title_activity_ask_help"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Interpreter" />
+        <activity android:name=".VideoUpload" />
+        <activity android:name=".AudioUpload" />
+        <activity android:name=".VideoCall" />
+        <activity android:name=".AudioCall" />
+        <activity android:name=".PictureUpload" />
+        <activity android:name=".TextUpload" />
+        <activity android:name=".SightHelp" />
+        <activity android:name=".VoiceHelp" />
+        <activity android:name=".ReadHelp" />
+        <activity android:name=".IdeaHelp" />
+        <activity android:name=".InterpretHelp" />
+        <activity android:name=".CounsellingHelp" />
+        <activity android:name=".ProblemHelp" />
+        <activity android:name=".SendMessage" />
+        <activity android:name=".SignUpAct" />
+        <activity android:name=".LoginAct" />
+        <activity android:name=".ResetPasswordAct" />
+        <activity android:name=".CheckingUserSession" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".ChangeEmail" />
+        <activity android:name=".DeleteUserAccount" />
+        <activity android:name=".SignOut"></activity>
+    </application>
+
+</manifest>
